@@ -2,7 +2,7 @@
 int main() {
 
   int numero;
-  printf("Digite um numero e eu direi se Ã© par ou impar!\n");
+  printf("Informe um número e eu direi se ele é par ou ímpar!\n");
   scanf(" %d", &numero);
 
   if (numero % 2 == 0) {
@@ -12,5 +12,4 @@ else {
     printf("Impar");
   }
   return 0;
-  
 }
